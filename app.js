@@ -8,7 +8,7 @@ const bodyParser = require('body-parser');
 
 // middlewares
 app.use(cors({
-  origin:"*"
+  origin: ["https://admirable-alpaca-b66d97.netlify.app/", "https://admirable-alpaca-b66d97.netlify.app"]
 }));
 
 app.use(express.json());
