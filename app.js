@@ -24,8 +24,6 @@ app.use((req,res,next)=>{
 //routes
 app.use('/api/v1/',routerClient);
 
-app.get('/',(req,res)=>{
-  console.log('test');
-})
+
 
 module.exports = app;
